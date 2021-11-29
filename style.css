@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
 *{
     background-color: lightgray;
+    
 }
     h1
 {
@@ -22,13 +24,16 @@
     width: 250px;
     height: 250px;
 }
+.row
+{
+    display: inline-flex;
+}
 
 .images img
 {
    height: 100%;
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    
    
 }
 
