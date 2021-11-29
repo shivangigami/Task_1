@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+
 *{
     background-color: lightgray;
     
@@ -7,7 +7,7 @@
 {
     text-align: center;
     color: blueviolet;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:"Roboto condensed";
 }
 .box
 {
