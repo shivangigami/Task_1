@@ -15,6 +15,7 @@
 
 }
 
+
 .images
 {
     
@@ -46,6 +47,13 @@
     font-family:"Raleway";
 }
 
+.page h2
+{
+     text-align: left;
+     font-size: "Roboto condensed";
+     color: darkgoldenrod;
+}
+
 .pics 
 {
     display: flex;
@@ -53,15 +61,22 @@
     
     
 }
+.page
+{
+    margin-left: 400px;
+    margin-right: 400px;;
+}
 
 .pics img
 {
-   width:400px;
+   width:100%;
 } 
 
-h2
-{
-    text-align:start;
-    font-size:40px ;
-    color: crimson;
+
+
+.txt {
+    font-family:"Raleway";
+    color:dodgerblue;
+    text-align: justify;
+    
 }
