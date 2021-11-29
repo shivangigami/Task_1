@@ -43,5 +43,25 @@
     text-align: center;
     padding: 15px;
     color: chocolate;
+    font-family:"Raleway";
 }
 
+.pics 
+{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.pics img
+{
+   width:400px;
+} 
+
+h2
+{
+    text-align:start;
+    font-size:40px ;
+    color: crimson;
+}
