@@ -9,10 +9,9 @@
     color: blueviolet;
     font-family:"Roboto condensed";
 }
-.box
+.box 
 {
-   margin-left: 55px;
-
+    text-align: center;
 }
 
 
@@ -28,6 +27,7 @@
 .row
 {
     display: inline-flex;
+    align-items: center;
 }
 
 .images img
