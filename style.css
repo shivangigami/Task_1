@@ -1,5 +1,6 @@
 body{
     width: 100%;
+    background-color: lightgray;
     
 }
     h1
@@ -27,6 +28,7 @@ body{
 {
     display: inline-flex;
     align-items: center;
+    margin-top: 65px;
 }
 
 .images img
@@ -101,7 +103,7 @@ body{
 {
     grid-column: 1;
     grid-row: 2;
-    margin-top: 100px;
+    padding: 65px;
 }
 
 .aside
@@ -129,13 +131,16 @@ body{
   justify-content: space-between;
   width: 100%;
    height:100%;
+   
 }
 
 .imgX img
 {
    width: 380px;
    height:350px;
-   padding: 10px;
+   border-radius:8px;
+   
+   
 }
 
 .aside .side-image 
@@ -146,10 +151,13 @@ body{
 .side-image img{
     width: 250px;
     height: 350px;
+    border-radius:8px;
 }
 .side-image iframe{
     width:250px ;
-    height: 100%;
+    height: 350px;
+    border-radius:8px;
+    
 }
 /* Task_4 Css Styling */
 .nav-bar
@@ -164,9 +172,9 @@ body{
     border-bottom-right-radius: 8px;
     position: fixed;
     height: 65px;
-    top: 10px;
+    top: 0;
     right: 0;
-    left: 10px;
+    left: 0;
 }
 .logo
 {
@@ -175,7 +183,7 @@ body{
 }
 
 .nav {
-    margin-right: 250px;
+    margin-right: 280px;
     font-size: 20px;
     
 }
@@ -209,6 +217,9 @@ body{
 {
     text-align: center;
     margin-top: 100px;
+    
 }
+
+
 
 
