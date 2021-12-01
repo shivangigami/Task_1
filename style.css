@@ -90,12 +90,12 @@ body{
     
 }
 
-.icon
+/*.icon
 {
     grid-column: 1 /span 2;
     grid-row: 1;
 }
-
+*/
 
 .page
 {
@@ -149,28 +149,52 @@ body{
     width:250px ;
     height: 100%;
 }
-/*
-
-.page .imgX{
-    padding: 10px;
-    
-}
-
-
-   /* padding: 20px; }
-
-
-.aside
+/* Task_4 Css Styling */
+.nav-bar
 {
-    position:absolute;
-    top: 0;
-    right: 0;
-    margin-top: 110px;
-    margin-right: 20px;
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+   background-color: tan;
+    align-items: center;
+    grid-column: 1 /span 2;
+    grid-row: 1;
+}
+.logo
+{
+    margin-left: 10px;
     
 }
 
+.nav {
+    margin-right: 250px;
+    font-size: 20px;
+    
+}
+.nav a {
+    text-decoration: none;
+    padding: 20px;
+}
+.nav a:link
+{
+    color: red;
+}
+.nav a:visited
+{
+    color:seagreen;
+    
+    
+}
 
-*/
+.nav a:hover
+{
+    color: salmon;
+    font-size: 22px;
+}
+
+.nav a:active
+{
+    color: slateblue;
+}
 
 
